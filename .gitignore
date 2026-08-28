@@ -1,0 +1,25 @@
+# Build outputs
+bin/
+bin/**
+obj/
+obj/**
+
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.exe
+*.dll
+*.il
+*.res
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# GitHub / local tooling
+*.tmp
+*.bak
