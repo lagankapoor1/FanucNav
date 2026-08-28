@@ -1,7 +1,7 @@
 ﻿# FanucNav
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lagankapoor1/FanucNav/master/banner.png" alt="FanucNav banner" width="100%" />
+  <img src="assets/banner.svg" alt="FanucNav banner" width="100%" />
 </p>
 
 <p align="center">
@@ -39,11 +39,18 @@ FanucNav brings those relationships into a side panel inside Notepad++ so you ca
 - Renumber programs and remap label references
 - Work from a dockable Notepad++ panel
 
+## Download the latest release
+
+Download the packaged plugin bundle from the GitHub Releases page for the newest version.
+
+- Latest stable build: `FanucNav-v1.0.0.zip`
+- Install: extract the zip into your Notepad++ plugins directory and ensure the folder is named `FanucNav`
+
 ## Quick start
 
 1. Open Notepad++.
-2. Build the plugin output from the included script.
-3. Copy the generated plugin folder into the Notepad++ plugins directory.
+2. Download or build the plugin package.
+3. Copy the generated `FanucNav` folder into the Notepad++ plugins directory.
 4. Launch Notepad++ and open the FanucNav panel.
 5. Browse the robot backup directory and start navigating call trees and references.
 
@@ -123,12 +130,15 @@ Support future improvements, maintenance, and plugin refinements for FANUC tooli
 
 ## Contributing
 
-Contributions are welcome. If you would like to improve the parser, UI, or documentation:
+Contributions are welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow, coding expectations, and pull request process.
 
-1. Fork the repository.
-2. Create a feature branch.
-3. Make a focused change.
-4. Open a pull request with a clear description.
+## Security
+
+Please report vulnerabilities privately through the process described in [SECURITY.md](SECURITY.md).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the release history and notable updates.
 
 ## Contributors
 
