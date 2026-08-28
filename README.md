@@ -9,9 +9,13 @@
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-0078D6.svg" />
   <img alt="Notepad++" src="https://img.shields.io/badge/Editor-Notepad%2B%2B-4A90E2.svg" />
   <img alt="Language" src="https://img.shields.io/badge/Language-C%23-239120.svg" />
+  <img alt="Release" src="https://img.shields.io/github/v/release/lagankapoor1/FanucNav" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/lagankapoor1/FanucNav" />
 </p>
 
-Author: Lagan Kapoor
+<p align="center">
+  <strong>Author:</strong> Lagan Kapoor
+</p>
 
 FanucNav is a Notepad++ plugin for navigating and understanding FANUC robot backup files written in TP/LS formats. It helps you quickly explore robot programs, trace call relationships, inspect labels and I/O, and work with register and data tables from a large FANUC backup.
 
@@ -99,6 +103,19 @@ The build script generates the plugin output for use in Notepad++.
 - tests — parser smoke tests
 - build.ps1 — build script
 - LICENSE — MIT license
+
+## Sponsor
+
+Support future improvements, maintenance, and plugin refinements for FANUC tooling.
+
+## Contributing
+
+Contributions are welcome. If you would like to improve the parser, UI, or documentation:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Make a focused change.
+4. Open a pull request with a clear description.
 
 ## Contributors
 
