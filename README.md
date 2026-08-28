@@ -39,12 +39,26 @@ FanucNav brings those relationships into a side panel inside Notepad++ so you ca
 - Renumber programs and remap label references
 - Work from a dockable Notepad++ panel
 
-## Download the latest release
+## Downloads
 
-Download the packaged plugin bundle from the GitHub Releases page for the newest version.
+Download the latest packaged plugin bundle from the GitHub Releases page.
 
-- Latest stable build: `FanucNav-v1.0.0.zip`
-- Install: extract the zip into your Notepad++ plugins directory and ensure the folder is named `FanucNav`
+- Stable build: `FanucNav-v1.0.0.zip`
+- Source code: available in this repository
+
+### Install steps
+
+1. Download the zip archive from the release page.
+2. Extract it to a temporary folder.
+3. Copy the extracted `FanucNav` folder into your Notepad++ plugins directory.
+4. Restart Notepad++ and open the FanucNav panel from the menu.
+
+### Release package contents
+
+- `FanucNav.dll` — compiled plugin
+- `fanuc-tp-udl.xml` — optional Notepad++ syntax highlighting theme
+- `banner.svg` — project banner asset
+- `README.md` and `LICENSE` — usage and licensing details
 
 ## Quick start
 
