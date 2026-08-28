@@ -1,5 +1,16 @@
 ﻿# FanucNav
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lagankapoor1/FanucNav/master/banner.png" alt="FanucNav banner" width="100%" />
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg" />
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows-0078D6.svg" />
+  <img alt="Notepad++" src="https://img.shields.io/badge/Editor-Notepad%2B%2B-4A90E2.svg" />
+  <img alt="Language" src="https://img.shields.io/badge/Language-C%23-239120.svg" />
+</p>
+
 Author: Lagan Kapoor
 
 FanucNav is a Notepad++ plugin for navigating and understanding FANUC robot backup files written in TP/LS formats. It helps you quickly explore robot programs, trace call relationships, inspect labels and I/O, and work with register and data tables from a large FANUC backup.
@@ -24,27 +35,21 @@ FanucNav brings those relationships into a side panel inside Notepad++ so you ca
 - Renumber programs and remap label references
 - Work from a dockable Notepad++ panel
 
-## Requirements
+## Quick start
 
-- Windows
-- 64-bit Notepad++
-- .NET Framework 4.8
-- A FANUC robot backup folder or compatible LS/TP files
+1. Open Notepad++.
+2. Build the plugin output from the included script.
+3. Copy the generated plugin folder into the Notepad++ plugins directory.
+4. Launch Notepad++ and open the FanucNav panel.
+5. Browse the robot backup directory and start navigating call trees and references.
 
-## Installation
-
-1. Build the plugin output from source using the included script.
-2. Copy the generated plugin folder into your Notepad++ plugins directory.
-3. Start Notepad++ and open the plugin menu.
-4. Use the FanucNav panel from the plugin menu or shortcuts.
-
-Typical installation path:
+### Typical installation path
 
 ```powershell
 C:\Program Files\Notepad++\plugins\FanucNav\FanucNav.dll
 ```
 
-Portable Notepad++:
+### Portable installation
 
 ```powershell
 <npp-portable>\plugins\FanucNav\FanucNav.dll
@@ -65,6 +70,21 @@ Portable Notepad++:
 - Ctrl+Alt+G — Go to definition
 - Ctrl+Alt+R — Find usages under the cursor
 
+## Troubleshooting
+
+### The plugin does not appear in Notepad++
+- Make sure the output is copied into the correct plugins folder.
+- Use a 64-bit Notepad++ build.
+- Confirm .NET Framework 4.8 is installed.
+
+### Build fails
+- Run the script from an elevated PowerShell session if needed.
+- Verify the project path and that the build script has not been blocked by execution policy.
+
+### No references show up
+- Confirm the selected file is a valid FANUC TP/LS program.
+- Check that the backup folder was indexed correctly.
+
 ## Build from source
 
 ```powershell
@@ -80,9 +100,9 @@ The build script generates the plugin output for use in Notepad++.
 - build.ps1 — build script
 - LICENSE — MIT license
 
-## Author
+## Contributors
 
-Lagan Kapoor
+- Lagan Kapoor
 
 ## License
 
