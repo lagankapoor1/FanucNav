@@ -1,0 +1,29 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x1="1400" y1="0" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="50" x2="600" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1085" cy="210" r="180" fill="#0B1220" opacity="0.75"/>
+  <path d="M990 130L1160 210L990 290L820 210L990 130Z" fill="url(#accent)" opacity="0.9"/>
+  <path d="M990 180L1095 210L990 240L885 210L990 180Z" fill="#E2E8F0" opacity="0.75"/>
+  <g opacity="0.9">
+    <rect x="94" y="110" width="180" height="180" rx="30" fill="#111827" stroke="#60A5FA" stroke-width="5"/>
+    <path d="M156 198H245" stroke="#60A5FA" stroke-width="14" stroke-linecap="round"/>
+    <path d="M156 242H215" stroke="#60A5FA" stroke-width="14" stroke-linecap="round"/>
+    <path d="M156 156H230" stroke="#60A5FA" stroke-width="14" stroke-linecap="round"/>
+    <path d="M185 128V268" stroke="#22C55E" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <text x="340" y="182" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700">FanucNav</text>
+  <text x="342" y="240" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">FANUC Robot Backup Navigator</text>
+  <text x="342" y="288" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400">Notepad++ Plugin for TP / LS Program Navigation</text>
+  <rect x="342" y="320" width="255" height="42" rx="21" fill="#2563EB"/>
+  <text x="372" y="347" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Lagan Kapoor</text>
+</svg>

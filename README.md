@@ -47,6 +47,19 @@ FanucNav brings those relationships into a side panel inside Notepad++ so you ca
 4. Launch Notepad++ and open the FanucNav panel.
 5. Browse the robot backup directory and start navigating call trees and references.
 
+### Syntax highlighting for FANUC TP / LS
+
+This repository includes a Notepad++ UDL file for FANUC TP / LS syntax highlighting.
+
+Import it in Notepad++:
+
+1. Open Language > Define Your Language…
+2. Click Import…
+3. Select the file: `notepad++/fanuc-tp-udl.xml`
+4. Use the language name `FANUC TP`
+
+This improves readability of FANUC robot code while using FanucNav.
+
 ### Typical installation path
 
 ```powershell
